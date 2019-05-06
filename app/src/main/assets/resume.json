@@ -1,0 +1,76 @@
+{
+  "name": "Eder Padilla",
+  "position": "Android Engineer",
+  "skills": [
+    {"name" : "Kotlin"},
+    {"name" : "Git"},
+    {"name" : "Swift"},
+    {"name" : "Java"},
+    {"name" : "Rx Java"},
+    {"name" : "Firebase"},
+    {"name" : "HTML"},
+    {"name" : "Retrofit"}
+  ],
+  "experience": [
+    {
+      "place": "Instituto Politécnico Nacional - ESIME Culhuacán",
+      "between":"2012 – 2016",
+      "description" : "Engineer’s degree, Communications and Electronic"
+    },
+    {
+      "place": "Uble SAS de CV",
+      "between":"2016 – 2019",
+      "description" : "Mainly I'm in charge of the applications Android development, since the beginning, to the the support and maintenance of all the apps. I provide help dealing with the customers. Give support and sometimes, another point of view to my teammates in Back- end,UI/UX and iOS. Help all the Ubler's in every way I can."
+    },
+    {
+      "place": "INAI",
+      "between":"2018 – 2019",
+      "description" : "Android Engineer"
+    },
+    {
+      "place": "Buckner International",
+      "between":"2017 – 2019",
+      "description" : "Android Engineer Application development to answer surveys in favor of a child sector with scarce resources"
+    },
+    {
+      "place": "Total Play Empresarial",
+      "between":"2018 – 2019",
+      "description" : "Android Engineer"
+    },
+    {
+      "place": "Universidad de Guadalajara",
+      "between":"2018",
+      "description" : "Instructor Android course instructor for staff of the University of Guadalajara"
+    },
+    {
+      "place": "Drive",
+      "between":"2017-2019",
+      "description" : "Android Engineer An application that manages all the services and products related to your car also with this tool gives benefits to their users and exclusive promotions, you can pay parking,parking meter, valet parking and more by scanning the ticket."
+    },
+    {
+      "place": "SAUBER Cancún",
+      "between":"2017-2019",
+      "description" : "Android Engineer Application to carry out surveys with several types of questions about the services offered by the company."
+    },
+    {
+      "place": "Colombian Government",
+      "between":"2017 – 2018",
+      "description" : "IT Consultant Android application to view government projects by state. Experience"
+    },
+    {
+      "place": "Gasfer & Mosfert",
+      "between":"2017 – 2019",
+      "description" : "Android Engineer Application to obtain the location of children's private transports in real time, so that their parents can see where their child is in real time."
+    },
+    {
+      "place": "MX Hacks",
+      "between":"2016",
+      "description" : "Mentor in Startup Weekend which is the largest student Hackathon in Latin America where you will create and develop side by side people with the same incredible creative potential as you. The development and growth of your idea will be given minute by minute, driven by the best guild mentors."
+    },
+    {
+      "place": "Hackathon Aldea Digital",
+      "between":"2016",
+      "description" : "Winner 1st place Application that with the help of the cellular accelerometer if you hit your cell phone in case of feeling in danger by means of a Facebook Messenger boot sends an alert message to your previously selected trusted contacts and they could obtain your location and your last connection."
+    }
+  ]
+}

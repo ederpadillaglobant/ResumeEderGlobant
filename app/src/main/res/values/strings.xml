@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Resume Eder Padilla</string>
+    <string name="eder">Eder Padilla</string>
+    <string name="github">Git Hub</string>
+    <string name="linked_in">Linked In</string>
+    <string name="show_resume">Show resume</string>
+    <string name="github_profile">https://github.com/ederpadilla</string>
+    <string name="linked_in_profile">https://www.linkedin.com/in/android-dev-eder-padilla/</string>
+    <string name="position">Android Engineer at Globant</string>
+    <string name="experience_des"> Description : %1$s</string>
+    <string name="experience_place"> Place : %1$s</string>
+    <string name="experience_between"> Between : %1$s</string>
+    <string name="skills">Skills</string>
+    <string name="no_internet">No hay conexion a internet.</string>
+</resources>

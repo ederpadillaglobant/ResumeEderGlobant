@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.resumeederpadilla"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//Architecture Components
+    implementation architectureComponents.lifecycle
+    kapt architectureComponents.lifecycleCompiler
+//Android Support
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.googleMaterial
+    implementation supportDependencies.constraint
+//Dagger
+    kapt supportDependencies.daggerAnnotation
+    implementation supportDependencies.dagger
+//Kotlin
+    implementation kotlinDependencies.kotlin
+    implementation kotlinDependencies.core
+//Test
+    implementation test.jUntit
+    implementation test.runner
+    implementation test.espresso
+//Retrofit
+    implementation retrofitDependencies.retrofit
+    implementation retrofitDependencies.gson
+    implementation retrofitDependencies.rxAdapterJava
+//Rx Java
+    implementation rxDependencies.rxAndroid
+    implementation rxDependencies.rxJava
+//OkHttp
+    implementation okHttpDependencies.okHttpLoggin
+//Lottie
+    implementation uiUtils.lottie
+//Glide
+    implementation uiUtils.glide
+    annotationProcessor uiUtils.glideAnnotationProcessor
+
+//Circle Image View
+    implementation uiUtils.circleImageView
+
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0"
+    testImplementation 'org.mockito:mockito-core:2.27.0'
+    testImplementation 'org.mockito:mockito-inline:2.13.0'
+    testImplementation "android.arch.core:core-testing:1.1.1"
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.1.1'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test:rules:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="none">0dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="mid_text_size">16sp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="one_hundred_eighty">180dp</dimen>
+    <dimen name="one_hundred_twenty">120dp</dimen>
+    <dimen name="four">4dp</dimen>
+    <dimen name="twenty_four">24dp</dimen>
+    <dimen name="big_size_tv">18sp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="eighty_two">82dp</dimen>
+</resources>
